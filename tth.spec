@@ -9,7 +9,7 @@ Source0:	http://hutchinson.belmont.ma.us/tth/tth-noncom/%{name}_C.tgz
 URL:		http://hutchinson.belmont.ma.us/tth/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%ifarch ppc sparc
+%ifarch ppc sparc alpha
 %define		optflags	-O0
 %endif
 

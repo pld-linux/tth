@@ -10,7 +10,7 @@ URL:		http://hutchinson.belmont.ma.us/tth/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %ifarch ppc
-%define                rpmcflags                -O0
+%define		optflags	-O0
 %endif
 
 %description

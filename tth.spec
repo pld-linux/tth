@@ -6,6 +6,7 @@ Release:	1
 License:	Free for non-commercial use
 Group:		Applications/Text
 Source0:	http://hutchinson.belmont.ma.us/tth/tth-noncom/%{name}_C.tgz
+# Source0-md5:	d683ed85a23f025e4a6c9eeeb0f3def2
 URL:		http://hutchinson.belmont.ma.us/tth/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

@@ -1,7 +1,7 @@
 Summary:	TTH is a LaTeX to HTML converter
 Summary(pl):	Konwerter LaTeXa do HTML
 Name:		tth
-Version:	2.51
+Version:	3.05
 Release:	1
 License:	Free for non-commercial use
 Group:		Applications/Text
@@ -23,8 +23,11 @@ TTH jest programem do konwersji LaTeXa do HTML.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_bindir}
-install l2h latex2gif ps2gif ps2png tth $RPM_BUILD_ROOT%{_bindir}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
+
+install latex2gif ps2gif ps2png tth $RPM_BUILD_ROOT%{_bindir}
+install tth.1 $RPM_BUILD_ROOT%{_mandir}/man1
+echo ".so tth.1" > $RPM_BUILD_ROOT%{_mandir}/man1/ps2gif.1
 
 gzip -9nf license.txt CHANGES
 
@@ -35,3 +38,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc license.txt.gz CHANGES.gz tth_manual.html
 %attr(755,root,root) %{_bindir}/*
+%{_mandir}/man1/*

@@ -5,9 +5,6 @@ Version:	2.51
 Release:	1
 License:	Free for non-commercial use
 Group:		Applications/Text
-Group(de):	Applikationen/Text
-Group(fr):	Utilitaires/Texte
-Group(pl):	Aplikacje/Tekst
 Source0:	http://hutchinson.belmont.ma.us/tth/tth-noncom/%{name}_C.tgz
 URL:		http://hutchinson.belmont.ma.us/tth/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

@@ -2,7 +2,7 @@ Summary:	TTH is a LaTeX to HTML converter
 Summary(pl):	Konwerter LaTeXa do HTML
 Name:		tth
 Version:	3.12
-Release:	1
+Release:	2
 License:	Free for non-commercial use
 Group:		Applications/Text
 Source0:	http://hutchinson.belmont.ma.us/tth/tth-noncom/%{name}_C.tgz

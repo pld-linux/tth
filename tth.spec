@@ -6,7 +6,7 @@ Copyright:	Free for non-commercial use.
 Group:		Utilities/Text
 Source:		tth_C.tgz
 URL:		http://hutchinson.belmont.ma.us/tth/
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 TTH is a very good LaTeX to HTML conversion program.

@@ -1,5 +1,5 @@
 Summary:	TTH is a LaTeX to HTML converter
-Summary(pl):	Konwerter LaTeXa do HTML
+Summary(pl.UTF-8):   Konwerter LaTeXa do HTML
 Name:		tth
 Version:	3.12
 Release:	2
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 TTH is a very good LaTeX to HTML conversion program.
 
-%description -l pl
+%description -l pl.UTF-8
 TTH jest programem do konwersji LaTeXa do HTML.
 
 %prep

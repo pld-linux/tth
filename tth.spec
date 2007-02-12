@@ -1,5 +1,5 @@
 Summary:	TTH is a LaTeX to HTML converter
-Summary(pl.UTF-8):   Konwerter LaTeXa do HTML
+Summary(pl.UTF-8):	Konwerter LaTeXa do HTML
 Name:		tth
 Version:	3.12
 Release:	2
